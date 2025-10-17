@@ -1,0 +1,46 @@
+body {
+    background-color: lightskyblue;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+
+}
+
+h3 {
+    color: blue;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    color: rgb(5, 0, 0);
+    background-color: orange;
+    font-size: 30px;
+}
+
+button:hover {
+    font-size: 35px;
+}
+
+.updown {
+    position: relative;
+    animation: updown 2s ease-in-out infinite alternate;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
